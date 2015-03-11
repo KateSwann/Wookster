@@ -1,0 +1,10 @@
+/* --------------------  Reveal modal window ----------------- */
+
+$reveal-modal-padding: rem-calc(40 70);
+$reveal-modal-small: rem-calc(30 60);
+
+.reveal-modal {
+    @include reveal-modal-style($padding:$reveal-modal-padding);
+
+    &.small { @include reveal-modal-base(false, 45%); }
+}

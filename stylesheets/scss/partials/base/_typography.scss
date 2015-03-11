@@ -1,0 +1,46 @@
+/* ---------------- Fonts and typography ----------------*/
+$font-size-secondary: 0.8rem;
+$line-height-secondary: 1.2;
+
+/* ----------------  Headers ---------------- */
+
+h1, h2, h3, h4, h5, h6 {
+    color: inherit;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    & > a {
+        color: $base-font-color;
+
+        &:hover,
+        &:focus {
+            color: $base-font-color;
+        }
+    }
+}
+
+/* ---------------- Links ----------------  */
+
+.secondary-link {
+    color: $secondary-color;
+
+    &:hover {
+        color: scale-color($secondary-color, $lightness: -14%);
+    }
+}
+
+.go-further:after {
+    content: "\203A";
+    font-size: 120%;
+    margin-left: 5px;
+}
+
+
+/* ---------------- Text ----------------  */
+
+.secondary-text {
+    font-size: $font-size-secondary;
+    line-height: $line-height-secondary;
+    color: scale-color($secondary-color, $lightness: -25%);
+}

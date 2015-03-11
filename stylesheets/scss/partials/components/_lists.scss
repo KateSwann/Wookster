@@ -1,0 +1,16 @@
+/* ---------------- Lists ----------------*/
+
+// Footer
+
+.site-map-list {
+    @include inline-list;
+
+    display: inline-block;
+}
+
+.social-icons-list {
+    @include inline-list;
+
+    display: inline-block;
+    
+}

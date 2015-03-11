@@ -1,0 +1,25 @@
+/* -----------------------Book and it's various types -------------*/
+
+.book-content {
+    width: 125px;
+
+    &.vertical {
+        .book-title {
+            margin-top: $base-rhythm;
+        }
+    }
+}
+
+.book-cover {box-shadow: 2px -2px #FFF, 6px -6px #cdcdcd;}
+
+.book-title {
+    font-size: 1rem;
+    line-height: 1.2rem;
+}
+
+.book-author,
+.book-master {
+    font-size: $paragraph-font-size-small;
+    line-height: $paragraph-line-height-small;
+    margin-bottom: $paragraph-margin-bottom-small;
+}

@@ -1,0 +1,23 @@
+/* --------------- Labels ---------------*/
+
+$label-type-show-color: $lochmara;
+$label-type-story-color: $cerise;
+$label-type-audiobook-color: $mojo;
+$label-age-color: $azure-radiance;
+$label-author-color: $mountbatten-pink;
+$label-master-color: $alpine;
+$label-genre-color: $accents-color;
+$label-world-color: $lime-pie;
+$label-draft-color:$tundora;
+
+.label {
+    &.type-show      { @include label($bg:$label-type-show-color); }
+    &.type-story     { @include label($bg:$label-type-story-color); }
+    &.type-audiobook { @include label($bg:$label-type-audiobook-color); }
+    &.age            { @include label($bg:$label-age-color); }
+    &.author         { @include label($bg:$label-author-color); }
+    &.master         { @include label($bg:$label-master-color); }
+    &.genre          { @include label($bg:$label-genre-color); }
+    &.world          { @include label($bg:$label-world-color); }
+    &.draft          { @include label($bg:$label-draft-color); }
+}

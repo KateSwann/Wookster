@@ -1,0 +1,24 @@
+/* ----------------- Form components --------------- */
+
+$input-form-spacing-large: $form-spacing*1.2;
+$input-font-size-large: $input-font-size*1.2;
+
+.input-large input {
+    font-size: $input-font-size-large;
+    margin: 0 0 $input-form-spacing-large;
+    height: ($input-font-size-large + ($input-form-spacing-large * 1.5) - rem-calc(1));
+}
+
+.input-prefix {
+    @include prefix-postfix-base();
+    @include prefix($bg: $white, $is-button: false);
+
+    height: ($input-font-size-large + ($input-form-spacing-large * 1.5) - rem-calc(1));
+}
+
+.input-postfix {
+    @include prefix-postfix-base();
+    @include postfix($bg: $white, $is-button: false);
+
+    height: ($input-font-size-large + ($input-form-spacing-large * 1.5) - rem-calc(1));
+}

@@ -1,0 +1,501 @@
+<!doctype html>
+<html class="no-js" lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Вукстер | Wookster</title>
+        <link rel="stylesheet" href="stylesheets/css/app.css" />
+        <style type="text/css">
+            /*--Fix bug from ZURB that not fully cover page by background*/
+            .reveal-modal-bg {
+                    position: fixed;
+            }
+        </style>
+        <script src="js/assets/modernizr.min.js"></script>
+    </head>
+
+    <body>
+        <div class="row">
+            <div class="large-12">
+                <nav class="top-bar" data-topbar role="navigation">
+                    <ul class="title-area">
+                        <li class="name">
+                            <h1>
+                                <a href="#"><img src="images/icons/site-logo.png" alt="Вукстер | Wookster"></a>
+                            </h1>
+                        </li>
+
+                        <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+
+                        <li class="toggle-topbar menu-icon">
+                            <a href="#">
+                                <span></span>
+                            </a>
+                        </li>
+                    </ul>
+
+                    <section class="top-bar-section">
+                        <!-- Right Nav Section -->
+                        <ul class="right">
+                            <li>
+                                <a href="#" data-reveal-id="securePopup">Войти</a>
+                            </li>
+
+                            <!-- Popup login form -->
+                            <div id="securePopup" class="reveal-modal small" data-reveal>
+                                <h4 class="section-title">Войдите или <a href="#">создайте учетную запись</a></h4>
+
+                                <form>
+                                    <div class="row">
+                                        <div class="small-12">
+                                            <div class="row collapse input-large prefix-radius">
+                                                <div class="small-1 columns">
+                                                    <span class="input-prefix">i</span>
+                                                </div>
+                                                <div class="small-11 columns">
+                                                    <input type="text" placeholder="Электронная почта">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="small-12">
+                                            <div class="row collapse input-large">
+                                                <div class="small-1 columns">
+                                                    <span class="input-prefix">i</span>
+                                                </div>
+                                                <div class="small-10 columns">
+                                                    <input type="text" placeholder="Пароль">
+                                                </div>
+                                                <div class="small-1 columns">
+                                                    <span class="input-postfix">i</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <a class="button expand radius" href="#">Войти в Вукстер</a>
+
+                                    <p><a href="#">Забыли пароль?</a></p>
+
+                                    <p>Или войдите через социальную сеть</p>
+
+                                    <ul class="inline-list">
+                                        <li><a href="#">1</a></li>
+                                        <li><a href="#">1</a></li>
+                                        <li><a href="#">1</a></li>
+                                        <li><a href="#">1</a></li>
+                                        <li><a href="#">1</a></li>
+                                    </ul>
+
+                                    <p>Вукстер так же доступен и на мобильных платформах</p>
+
+                                    <p class="secondary-text">Продолжайте прослушивание любимых книг на своём смартфоне или планшетном компьютере</p>
+
+                                    <ul class="small-block-grid-3">
+                                        <li><img src="http://placehold.it/600x500&text=Thumbnail"></li>
+                                        <li><img src="http://placehold.it/600x500&text=Thumbnail"></li>
+                                        <li><img src="http://placehold.it/600x500&text=Thumbnail"></li>
+                                    </ul>
+                                </form>
+                                <a class="close-reveal-modal">&#215;</a>
+                            </div>
+                        </ul>
+                        <!-- Left Nav Section -->
+                        <ul class="left">
+                            <li>
+                                <a href="#">Все аудиокниги</a>
+                            </li>
+
+                            <li>
+                                <a href="#">Миры</a>
+                            </li>
+
+                            <li>
+                                <a href="#">Шоу</a>
+                            </li>
+
+                            <li>
+                                <a href="#">Сезоны</a>
+                            </li>
+
+                            <li>
+                                <a href="#">Истории</a>
+                            </li>
+
+                            <li>
+                                <a href="#">О сервисе</a>
+                            </li>
+                        </ul>
+                    </section>
+                </nav>
+            </div>
+        </div>
+
+        <form class="hero">
+            <div class="row">
+                <div class="small-12 medium-8 large-6 medium-centered columns text-center">
+                    <h1>Бесплатные аудиокниги на любой вкус</h1>
+                    <p>Более 10000 аудиокниг и аудиоспектаклей от лучших мастеров России и СНГ</p>
+                    <p>Насладитесь в полной мере любимыми произведениями</p>
+
+                    <div class="row collapse postfix-radius">
+                        <div class="small-11 columns">
+                            <input type="text" placeholder="Автор, мастер или название книги">
+                        </div>
+
+                        <div class="small-1 end columns">
+                            <input type="submit" value="Search" class="postfix small button expand" href="#">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+
+        <div class="site-container row">
+
+            <div class="row">
+                <div class="small-12 large-7 columns">
+                    <img src="images/images/banner.png" alt="">
+                </div>
+
+                <div class="world-promo-block blue large-5 columns">
+                    <div class="row">
+                        <div class="small-4 columns text-center">
+                            <img src="images/images/worlds2.png">
+                        </div>
+
+                        <div class="small-8 columns">
+                                <strong class="title">На старт, внимание, марш!</strong>
+                                <p class="text">Голосуй за любимых мастеров и их работы. По окончании сезона будут подведены итоги и лучшие будут награждены!</p>
+                                <a href="#" class="go-further">Сезон проходит с февраля по март 2015</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="world-promo-block brown large-5 columns">
+                    <div class="row">
+                        <div class="container">
+                            <div class="small-4 columns text-center">
+                                <img src="images/images/worlds1.png">
+                            </div>
+
+                            <div class="small-8 columns">
+                                <strong class="title">Присоединяйдесь к приключениям геральта</strong>
+                                <p class="text">Все книги о Ведьмаке в одном клике от вас!</p>
+                                <a href="#" class="go-further">Слушать всё</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="small-12 columns section">
+                    <h2 class="section-title">
+                        <a href="#" class="go-further">Самые популярные аудиокниги</a>
+                    </h2>
+
+                    <ul class="small-block-grid-2 medium-block-grid-3 large-block-grid-6">
+                        <li class="book">
+                            <div class="book-content vertical">
+                                <a href="#"><img src="images/covers/book1.jpg" class="book-cover"></a>
+
+                                <h3 class="book-title">
+                                    <a href="#">Заголовок великолепной книги</a>
+                                    <span class="label radius age">16+</span>
+                                </h3>
+
+                                <p class="book-author"><a href="#" class="secondary-link">Макс Фрай</a></p>
+                                <p class="book-master"><a href="#">Кирилл Удовиков</a></p>
+                            </div>
+                        </li>
+                        
+                        <li class="book">
+                            <div class="book-content vertical">
+                                <a href="#"><img src="images/covers/book2.jpg" class="book-cover"></a>
+
+                                <h3 class="book-title">
+                                    <a href="#">Заголовок великолепной книги</a>
+                                    <span class="label radius age">16+</span>
+                                </h3>
+
+                                <p class="book-author"><a href="#" class="secondary-link">Макс Фрай</a></p>
+                                <p class="book-master"><a href="#">Кирилл Удовиков</a></p>
+                            </div>
+                        </li>
+                        
+                        <li class="book">
+                            <div class="book-content vertical">
+                                <a href="#"><img src="images/covers/book3.jpg" class="book-cover"></a>
+
+                                <h3 class="book-title">
+                                    <a href="#">Заголовок великолепной книги</a>
+                                    <span class="label radius age">16+</span>
+                                </h3>
+
+                                <p class="book-author"><a href="#" class="secondary-link">Макс Фрай</a></p>
+                                <p class="book-master"><a href="#">Кирилл Удовиков</a></p>
+                            </div>
+                        </li>
+                        
+                        <li class="book">
+                            <div class="book-content vertical">
+                                <a href="#"><img src="images/covers/book4.jpg" class="book-cover"></a>
+
+                                <h3 class="book-title">
+                                    <a href="#">Заголовок великолепной книги</a>
+                                    <span class="label radius age">16+</span>
+                                </h3>
+
+                                <p class="book-author"><a href="#" class="secondary-link">Макс Фрай</a></p>
+                                <p class="book-master"><a href="#">Кирилл Удовиков</a></p>
+                            </div>
+                        </li>
+                        
+                        <li class="book">
+                            <div class="book-content vertical">
+                                <a href="#"><img src="images/covers/book5.jpg" class="book-cover"></a>
+
+                                <h3 class="book-title">
+                                    <a href="#">Заголовок великолепной книги</a>
+                                    <span class="label radius age">16+</span>
+                                </h3>
+
+                                <p class="book-author"><a href="#" class="secondary-link">Макс Фрай</a></p>
+                                <p class="book-master"><a href="#">Кирилл Удовиков</a></p>
+                            </div>
+                        </li>
+
+                        <li class="book">
+                            <div class="book-content vertical">
+                                <a href="#"><img src="images/covers/book6.jpg" class="book-cover"></a>
+
+                                <h3 class="book-title">
+                                    <a href="#">Заголовок великолепной книги</a>
+                                    <span class="label radius age">16+</span>
+                                </h3>
+
+                                <p class="book-author"><a href="#" class="secondary-link">Макс Фрай</a></p>
+                                <p class="book-master"><a href="#">Кирилл Удовиков</a></p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="small-12 medium-6 large-4 columns text-center">
+                    <h4>Лучшие шоу</h4>
+                    <a href="#"><img src="http://placehold.it/250x250&text=Thumbnail" /></a>
+                    <p><a href="#">Лучшие шоу ></a></p>
+                </div>
+
+                <div class="small-12 medium-6 large-8 columns">
+                    <ul class="small-block-grid-1 medium-block-grid-2 large-block-grid-4">
+                        <li>
+                            <a href="#"><img src="http://placehold.it/250x250&text=Thumbnail"></a>
+                            <div class="panel">
+                                <h5>
+                                    <a href="#">
+                                        Заголовок великолепной книги
+                                        <span class="label radius">16+</span>
+                                    </a>
+                                </h6>
+                                <p class="author"><a href="#" class="secondary-link">Макс Фрай</a></p>
+                                <p class="master"><a href="#">Кирилл Удовиков</a></p>
+                            </div>
+                        </li>
+                        
+                        <li>
+                            <a href="#"><img src="http://placehold.it/250x250&text=Thumbnail"></a>
+                            <div class="panel">
+                                <h5>
+                                    <a href="#">
+                                        Заголовок великолепной книги
+                                        <span class="label radius">16+</span>
+                                    </a>
+                                </h6>
+                                <p class="author"><a href="#" class="secondary-link">Макс Фрай</a></p>
+                                <p class="master"><a href="#">Кирилл Удовиков</a></p>
+                            </div>
+                        </li>
+                        
+                        <li>
+                            <a href="#"><img src="http://placehold.it/250x250&text=Thumbnail"></a>
+                            <div class="panel">
+                                <h5>
+                                    <a href="#">
+                                        Заголовок великолепной книги
+                                        <span class="label radius">16+</span>
+                                    </a>
+                                </h6>
+                                <p class="author"><a href="#" class="secondary-link">Макс Фрай</a></p>
+                                <p class="master"><a href="#">Кирилл Удовиков</a></p>
+                            </div>
+                        </li>
+                        
+                        <li>
+                            <a href="#"><img src="http://placehold.it/250x250&text=Thumbnail"></a>
+                            <div class="panel">
+                                <h5>
+                                    <a href="#">
+                                        Заголовок великолепной книги
+                                        <span class="label radius">16+</span>
+                                    </a>
+                                </h6>
+                                <p class="author"><a href="#" class="secondary-link">Макс Фрай</a></p>
+                                <p class="master"><a href="#">Кирилл Удовиков</a></p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="small-12 columns section">
+                    <h2 class="section-title">
+                        <a href="#" class="go-further">Самые популярные аудиокниги</a>
+                    </h2>
+
+                    <ul class="small-block-grid-2 medium-block-grid-3 large-block-grid-6">
+                        <li class="book">
+                            <div class="book-content vertical">
+                                <a href="#"><img src="images/covers/book1.jpg" class="book-cover"></a>
+
+                                <h3 class="book-title">
+                                    <a href="#">Заголовок великолепной книги</a>
+                                    <span class="label radius age">16+</span>
+                                </h3>
+
+                                <p class="book-author"><a href="#" class="secondary-link">Макс Фрай</a></p>
+                                <p class="book-master"><a href="#">Кирилл Удовиков</a></p>
+                            </div>
+                        </li>
+                        
+                        <li class="book">
+                            <div class="book-content vertical">
+                                <a href="#"><img src="images/covers/book2.jpg" class="book-cover"></a>
+
+                                <h3 class="book-title">
+                                    <a href="#">Заголовок великолепной книги</a>
+                                    <span class="label radius age">16+</span>
+                                </h3>
+
+                                <p class="book-author"><a href="#" class="secondary-link">Макс Фрай</a></p>
+                                <p class="book-master"><a href="#">Кирилл Удовиков</a></p>
+                            </div>
+                        </li>
+                        
+                        <li class="book">
+                            <div class="book-content vertical">
+                                <a href="#"><img src="images/covers/book3.jpg" class="book-cover"></a>
+
+                                <h3 class="book-title">
+                                    <a href="#">Заголовок великолепной книги</a>
+                                    <span class="label radius age">16+</span>
+                                </h3>
+
+                                <p class="book-author"><a href="#" class="secondary-link">Макс Фрай</a></p>
+                                <p class="book-master"><a href="#">Кирилл Удовиков</a></p>
+                            </div>
+                        </li>
+                        
+                        <li class="book">
+                            <div class="book-content vertical">
+                                <a href="#"><img src="images/covers/book4.jpg" class="book-cover"></a>
+
+                                <h3 class="book-title">
+                                    <a href="#">Заголовок великолепной книги</a>
+                                    <span class="label radius age">16+</span>
+                                </h3>
+
+                                <p class="book-author"><a href="#" class="secondary-link">Макс Фрай</a></p>
+                                <p class="book-master"><a href="#">Кирилл Удовиков</a></p>
+                            </div>
+                        </li>
+                        
+                        <li class="book">
+                            <div class="book-content vertical">
+                                <a href="#"><img src="images/covers/book5.jpg" class="book-cover"></a>
+
+                                <h3 class="book-title">
+                                    <a href="#">Заголовок великолепной книги</a>
+                                    <span class="label radius age">16+</span>
+                                </h3>
+
+                                <p class="book-author"><a href="#" class="secondary-link">Макс Фрай</a></p>
+                                <p class="book-master"><a href="#">Кирилл Удовиков</a></p>
+                            </div>
+                        </li>
+
+                        <li class="book">
+                            <div class="book-content vertical">
+                                <a href="#"><img src="images/covers/book6.jpg" class="book-cover"></a>
+
+                                <h3 class="book-title">
+                                    <a href="#">Заголовок великолепной книги</a>
+                                    <span class="label radius age">16+</span>
+                                </h3>
+
+                                <p class="book-author"><a href="#" class="secondary-link">Макс Фрай</a></p>
+                                <p class="book-master"><a href="#">Кирилл Удовиков</a></p>
+                            </div>
+                        </li>
+                    </ul>
+
+                    <p class="text-center"><a href="#">Показать еще 12 аудиокниг</a></p>
+                </div>
+            </div>
+
+
+            <div class="row text-center">
+                <div class="small-12 medium-8 large-6 medium-centered columns text-centerы">
+                    <h4>Зарегистрируйтесь, если понравилось на Вукстер</h4>
+                    <p>Будьте в курсе новых поступлений, интересующих Вас аудиокниг, храните историю прослушивания и оставляйте отзывы</p>
+                    <a class="button radius" href="#">Зарегистрироваться</a>
+                    <p><a href="#">У меня уже есть учетная запись</a></p>
+                </div>
+            </div>
+        </div>
+
+        <footer class="row">
+            <div class="large-12 columns small-text-center">
+                <div class="row">
+                    <div class="large-6 columns large-text-left">
+                        <ul class="site-map-list ">
+                            <li><a href="#">Все аудиокниги</a></li>
+                            <li><a href="#">Миры</a></li>
+                            <li><a href="#">Шоу</a></li>
+                            <li><a href="#">Сезоны</a></li>
+                            <li><a href="#">Истории</a></li>
+                            <li><a href="#">О сервисе</a></li>
+                        </ul>
+                    </div>
+                    <div class="large-6 columns large-text-right">
+                        <p><a href="#">Связаться с нами</a></p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="large-6 columns large-text-left">
+                        <p class="copyright">2015 &copy; Вукстер &#8212; аудиокниги. Все права защищены.</p>
+                    </div>
+                    <div class="large-6 columns large-text-right">
+                        <ul class="social-icons-list">
+                            <li><a href="#">1</a></li>
+                            <li><a href="#">1</a></li>
+                            <li><a href="#">1</a></li>
+                            <li><a href="#">1</a></li>
+                            <li><a href="#">1</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script src="js/assets/jquery.min.js"></script>
+        <script src="js/assets/script.min.js"></script>
+    </body>
+</html> 

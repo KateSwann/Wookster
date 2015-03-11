@@ -1,0 +1,41 @@
+@import
+        "normalize",
+        "foundation/settings",
+        "partials/settings-override",
+        "foundation",
+
+        "partials/custom.scss";
+
+// --------------- base ---------------
+@import "partials/base/typography.scss";
+
+
+// --------------- components ---------------
+@import
+        "partials/components/block-grid.scss",
+        "partials/components/book.scss",
+        "partials/components/buttons.scss",
+        "partials/components/forms.scss",
+        "partials/components/hero.scss",
+        "partials/components/labels.scss",
+        "partials/components/lists.scss",
+        "partials/components/navigation.scss",
+        "partials/components/reveal.scss",
+        "partials/components/top-bar.scss",
+        "partials/components/units.scss";
+
+// --------------- helpers ---------------
+@import
+        "partials/helpers/mixins.scss",
+        "partials/helpers/variables.scss";
+
+// --------------- layout ---------------
+@import
+        "partials/layout/header.scss",
+        "partials/layout/forms.scss",
+        "partials/layout/grid.scss",
+        "partials/layout/sidebar.scss",
+        "partials/layout/footer.scss";
+
+// --------------- pages ---------------
+@import "partials/pages/main.scss";

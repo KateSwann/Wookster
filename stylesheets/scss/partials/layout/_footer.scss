@@ -1,0 +1,29 @@
+/* ---------------- Footer ----------------*/
+$footer-background-color: #CDD9DE;
+$footer-link-color: #637176;
+$footer-text-color: #95A1A7;
+$footer-font-size: floor($base-font-size / 1.2);
+
+
+footer {
+    padding: ($base-rhythm * 1.5) ($base-rhythm * 2);
+    background-color: $footer-background-color;
+    color: $footer-text-color;
+
+    .site-map-list{
+        margin-bottom: rem-calc(40);
+    }
+
+    .copyright {
+        font-size: $footer-font-size;
+    }
+
+    & a {
+        color: $footer-link-color;
+        font-size: $footer-font-size;
+
+        &:hover {
+            color: scale-color($footer-link-color, $lightness: -40%);
+        }
+    }
+}
