@@ -24,6 +24,21 @@
         "partials/components/top-bar.scss",
         "partials/components/units.scss";
 
+// --------------- fonts ---------------
+@import
+        "partials/fonts/OpenSans/variables.scss",
+        "partials/fonts/OpenSans/mixins.scss",
+        "partials/fonts/OpenSans/Light.scss",
+        "partials/fonts/OpenSans/LightItalic.scss",
+        "partials/fonts/OpenSans/Regular.scss",
+        "partials/fonts/OpenSans/Italic.scss",
+        "partials/fonts/OpenSans/Semibold.scss",
+        "partials/fonts/OpenSans/SemiboldItalic.scss",
+        "partials/fonts/OpenSans/Bold.scss",
+        "partials/fonts/OpenSans/BoldItalic.scss",
+        "partials/fonts/OpenSans/ExtraBold.scss",
+        "partials/fonts/OpenSans/ExtraBoldItalic.scss";
+
 // --------------- helpers ---------------
 @import
         "partials/helpers/mixins.scss",
