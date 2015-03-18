@@ -1,7 +1,10 @@
 /* ----------------- Form components --------------- */
-
 $input-form-spacing-large: $form-spacing*1.2;
 $input-font-size-large: $input-font-size*1.2;
+
+input[type="submit"] {
+    border-width: 0;
+}
 
 .input-large input {
     font-size: $input-font-size-large;
@@ -21,4 +24,39 @@ $input-font-size-large: $input-font-size*1.2;
     @include postfix($bg: $white, $is-button: false);
 
     height: ($input-font-size-large + ($input-form-spacing-large * 1.5) - rem-calc(1));
+}
+
+.search-form {
+    .search-field {
+        padding-left: 15px;
+        border-width: 0;
+    }
+    .search-submit {
+        background: url(#{$site-icons-path}/icon-search.png) no-repeat 50% 50% $white;
+        text-indent: -999px;
+    }
+}
+
+// fix form input radiuses
+
+.prefix-radius {
+    .input-prefix, .prefix {
+        border-radius: $global-radius 0 0 $global-radius;
+    }
+
+    input {border-radius: 0 $global-radius $global-radius 0}
+}
+
+.postfix-radius {
+    .input-postfix, .postfix {
+        border-radius: 0 $global-radius $global-radius 0;
+    }
+
+    input {border-radius: $global-radius 0 0 $global-radius}
+}
+
+.prefix-radius.postfix-radius {
+    input:not([type=submit]), textarea, select {
+        border-radius: 0 !important;
+    }
 }

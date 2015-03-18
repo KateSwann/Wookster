@@ -9,6 +9,10 @@
 // --------------- base ---------------
 @import "partials/base/typography.scss";
 
+// --------------- helpers ---------------
+@import
+        "partials/helpers/mixins.scss",
+        "partials/helpers/variables.scss";
 
 // --------------- components ---------------
 @import
@@ -38,11 +42,6 @@
         "partials/fonts/OpenSans/BoldItalic.scss",
         "partials/fonts/OpenSans/ExtraBold.scss",
         "partials/fonts/OpenSans/ExtraBoldItalic.scss";
-
-// --------------- helpers ---------------
-@import
-        "partials/helpers/mixins.scss",
-        "partials/helpers/variables.scss";
 
 // --------------- layout ---------------
 @import
