@@ -4248,8 +4248,8 @@ ul.pagination {
     position: absolute;
     top: 0.625rem;
     right: 1.375rem;
-    color: #AAAAAA;
-    font-weight: bold;
+    color: #CCC;
+    font-weight: 100;
     cursor: pointer; }
 
 dialog {
@@ -6561,12 +6561,14 @@ input[type="submit"] {
 .prefix-radius .input-prefix, .prefix-radius .prefix {
   border-radius: 3px 0 0 3px; }
 .prefix-radius input {
-  border-radius: 0 3px 3px 0; }
+  border-radius: 0 3px 3px 0;
+  border-left: none; }
 
 .postfix-radius .input-postfix, .postfix-radius .postfix {
   border-radius: 0 3px 3px 0; }
 .postfix-radius input {
-  border-radius: 3px 0 0 3px; }
+  border-radius: 3px 0 0 3px;
+  border-right: none; }
 
 .prefix-radius.postfix-radius input:not([type=submit]), .prefix-radius.postfix-radius textarea, .prefix-radius.postfix-radius select {
   border-radius: 0 !important; }
@@ -6575,6 +6577,55 @@ input[type="submit"] {
 .hero {
   padding: 35px 0;
   color: #FFF; }
+
+.icon-eye:before, .icon-user:before, .icon-lock:before, .icon-megafon-pink:before, .icon-megafon-black:before, .icon-mail:before {
+  content: "";
+  background-repeat: no-repeat;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 1; }
+
+.icon-eye:before {
+  background-image: url(../../images/icons/icons-sprite-login.png);
+  background-position: 0 -18px;
+  width: 25px;
+  height: 16px;
+  margin-top: 5.33333px; }
+
+.icon-user:before {
+  background-image: url(../../images/icons/icons-sprite-login.png);
+  background-position: 0 -1px;
+  width: 15px;
+  height: 16px;
+  margin-top: 5.33333px; }
+
+.icon-lock:before {
+  background-image: url(../../images/icons/icons-sprite-login.png);
+  background-position: -14px 0;
+  width: 13px;
+  height: 16px;
+  margin-top: 5.33333px; }
+
+.icon-megafon-pink:before {
+  background-image: url(../../images/icons/icons-sprite-megafon.png);
+  background-position: 0 0;
+  width: 12px;
+  height: 12px;
+  margin-top: 4px; }
+
+.icon-megafon-black:before {
+  background-image: url(../../images/icons/icons-sprite-megafon.png);
+  background-position: 0 -12px;
+  width: 12px;
+  height: 12px;
+  margin-top: 4px; }
+
+.icon-mail:before {
+  background-image: url(../../images/icons/icon-mail.png);
+  background-position: 0 0;
+  width: 14px;
+  height: 11px;
+  margin-top: 3.66667px; }
 
 /* --------------- Labels ---------------*/
 .label.type-show {

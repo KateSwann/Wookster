@@ -1,0 +1,40 @@
+
+%icon-base:before {
+    content: "";
+    background-repeat: no-repeat;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1;
+}
+
+@mixin icons($filename, $width, $height, $x, $y) {
+    background-image: url(#{$site-icons-path}/#{$filename});
+    background-position: #{$x} #{$y};
+    width: $width;
+    height: $height;
+    margin-top: $height/3;
+}
+
+.icon-eye:before { 
+    @extend %icon-base;
+    @include icons("icons-sprite-login.png", 25px, 16px, 0, -18px); }
+
+.icon-user:before {
+    @extend %icon-base;
+    @include icons("icons-sprite-login.png", 15px, 16px, 0, -1px) }
+
+.icon-lock:before {
+    @extend %icon-base;
+    @include icons("icons-sprite-login.png", 13px, 16px, -14px, 0) }
+
+.icon-megafon-pink:before {
+    @extend %icon-base;
+    @include icons("icons-sprite-megafon.png", 12px, 12px, 0, 0) }
+
+.icon-megafon-black:before {
+    @extend %icon-base;
+    @include icons("icons-sprite-megafon.png", 12px, 12px, 0, -12px) }
+
+.icon-mail:before {
+    @extend %icon-base;
+    @include icons("icon-mail.png", 14px, 11px, 0, 0) }
