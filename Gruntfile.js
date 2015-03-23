@@ -74,6 +74,14 @@
             }
         },
 
+        sprite:{
+          all: {
+            src: 'images/icons/*.png',
+            dest: 'images/icons/sprites/spritesheet.png',
+            destCss: 'stylesheets/scss/partials/components/_sprites.scss'
+          }
+        },
+
         // --------------------------------------
         // Uglify Configuration
         // --------------------------------------
@@ -97,6 +105,7 @@
     grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.loadNpmTasks('grunt-contrib-uglify');
     grunt.loadNpmTasks('grunt-contrib-concat');
+    grunt.loadNpmTasks('grunt-spritesmith');
 
 
     // -----------------------------------------

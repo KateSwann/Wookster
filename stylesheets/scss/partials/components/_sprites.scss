@@ -1,0 +1,312 @@
+/*
+SCSS variables are information about icon's compiled state, stored under its original file name
+
+.icon-home {
+  width: $icon-home-width;
+}
+
+The large array-like variables contain all information about a single icon
+$icon-home: x y offset_x offset_y width height total_width total_height image_path;
+
+At the bottom of this section, we provide information about the spritesheet itself
+$spritesheet: width height image $spritesheet-sprites;
+*/
+$ico-lock-white-name: 'ico-lock-white';
+$ico-lock-white-x: 33px;
+$ico-lock-white-y: 125px;
+$ico-lock-white-offset-x: -33px;
+$ico-lock-white-offset-y: -125px;
+$ico-lock-white-width: 12px;
+$ico-lock-white-height: 16px;
+$ico-lock-white-total-width: 290px;
+$ico-lock-white-total-height: 143px;
+$ico-lock-white-image: '../../../../images/icons/sprites/spritesheet.png';
+$ico-lock-white: (33px, 125px, -33px, -125px, 12px, 16px, 290px, 143px, '../../../../images/icons/sprites/spritesheet.png', 'ico-lock-white', );
+$icon-close-name: 'icon-close';
+$icon-close-x: 251px;
+$icon-close-y: 102px;
+$icon-close-offset-x: -251px;
+$icon-close-offset-y: -102px;
+$icon-close-width: 13px;
+$icon-close-height: 13px;
+$icon-close-total-width: 290px;
+$icon-close-total-height: 143px;
+$icon-close-image: '../../../../images/icons/sprites/spritesheet.png';
+$icon-close: (251px, 102px, -251px, -102px, 13px, 13px, 290px, 143px, '../../../../images/icons/sprites/spritesheet.png', 'icon-close', );
+$icon-eye-open-name: 'icon-eye-open';
+$icon-eye-open-x: 216px;
+$icon-eye-open-y: 102px;
+$icon-eye-open-offset-x: -216px;
+$icon-eye-open-offset-y: -102px;
+$icon-eye-open-width: 23px;
+$icon-eye-open-height: 15px;
+$icon-eye-open-total-width: 290px;
+$icon-eye-open-total-height: 143px;
+$icon-eye-open-image: '../../../../images/icons/sprites/spritesheet.png';
+$icon-eye-open: (216px, 102px, -216px, -102px, 23px, 15px, 290px, 143px, '../../../../images/icons/sprites/spritesheet.png', 'icon-eye-open', );
+$icon-lock-grey-name: 'icon-lock-grey';
+$icon-lock-grey-x: 239px;
+$icon-lock-grey-y: 102px;
+$icon-lock-grey-offset-x: -239px;
+$icon-lock-grey-offset-y: -102px;
+$icon-lock-grey-width: 12px;
+$icon-lock-grey-height: 15px;
+$icon-lock-grey-total-width: 290px;
+$icon-lock-grey-total-height: 143px;
+$icon-lock-grey-image: '../../../../images/icons/sprites/spritesheet.png';
+$icon-lock-grey: (239px, 102px, -239px, -102px, 12px, 15px, 290px, 143px, '../../../../images/icons/sprites/spritesheet.png', 'icon-lock-grey', );
+$icon-mail-name: 'icon-mail';
+$icon-mail-x: 264px;
+$icon-mail-y: 102px;
+$icon-mail-offset-x: -264px;
+$icon-mail-offset-y: -102px;
+$icon-mail-width: 14px;
+$icon-mail-height: 11px;
+$icon-mail-total-width: 290px;
+$icon-mail-total-height: 143px;
+$icon-mail-image: '../../../../images/icons/sprites/spritesheet.png';
+$icon-mail: (264px, 102px, -264px, -102px, 14px, 11px, 290px, 143px, '../../../../images/icons/sprites/spritesheet.png', 'icon-mail', );
+$icon-megafon-black-name: 'icon-megafon-black';
+$icon-megafon-black-x: 57px;
+$icon-megafon-black-y: 125px;
+$icon-megafon-black-offset-x: -57px;
+$icon-megafon-black-offset-y: -125px;
+$icon-megafon-black-width: 12px;
+$icon-megafon-black-height: 12px;
+$icon-megafon-black-total-width: 290px;
+$icon-megafon-black-total-height: 143px;
+$icon-megafon-black-image: '../../../../images/icons/sprites/spritesheet.png';
+$icon-megafon-black: (57px, 125px, -57px, -125px, 12px, 12px, 290px, 143px, '../../../../images/icons/sprites/spritesheet.png', 'icon-megafon-black', );
+$icon-megafon-pink-name: 'icon-megafon-pink';
+$icon-megafon-pink-x: 45px;
+$icon-megafon-pink-y: 125px;
+$icon-megafon-pink-offset-x: -45px;
+$icon-megafon-pink-offset-y: -125px;
+$icon-megafon-pink-width: 12px;
+$icon-megafon-pink-height: 12px;
+$icon-megafon-pink-total-width: 290px;
+$icon-megafon-pink-total-height: 143px;
+$icon-megafon-pink-image: '../../../../images/icons/sprites/spritesheet.png';
+$icon-megafon-pink: (45px, 125px, -45px, -125px, 12px, 12px, 290px, 143px, '../../../../images/icons/sprites/spritesheet.png', 'icon-megafon-pink', );
+$icon-search-name: 'icon-search';
+$icon-search-x: 0px;
+$icon-search-y: 125px;
+$icon-search-offset-x: 0px;
+$icon-search-offset-y: -125px;
+$icon-search-width: 18px;
+$icon-search-height: 18px;
+$icon-search-total-width: 290px;
+$icon-search-total-height: 143px;
+$icon-search-image: '../../../../images/icons/sprites/spritesheet.png';
+$icon-search: (0px, 125px, 0px, -125px, 18px, 18px, 290px, 143px, '../../../../images/icons/sprites/spritesheet.png', 'icon-search', );
+$icon-user-name: 'icon-user';
+$icon-user-x: 18px;
+$icon-user-y: 125px;
+$icon-user-offset-x: -18px;
+$icon-user-offset-y: -125px;
+$icon-user-width: 15px;
+$icon-user-height: 17px;
+$icon-user-total-width: 290px;
+$icon-user-total-height: 143px;
+$icon-user-image: '../../../../images/icons/sprites/spritesheet.png';
+$icon-user: (18px, 125px, -18px, -125px, 15px, 17px, 290px, 143px, '../../../../images/icons/sprites/spritesheet.png', 'icon-user', );
+$mobile-android-name: 'mobile-android';
+$mobile-android-x: 0px;
+$mobile-android-y: 51px;
+$mobile-android-offset-x: 0px;
+$mobile-android-offset-y: -51px;
+$mobile-android-width: 145px;
+$mobile-android-height: 51px;
+$mobile-android-total-width: 290px;
+$mobile-android-total-height: 143px;
+$mobile-android-image: '../../../../images/icons/sprites/spritesheet.png';
+$mobile-android: (0px, 51px, 0px, -51px, 145px, 51px, 290px, 143px, '../../../../images/icons/sprites/spritesheet.png', 'mobile-android', );
+$mobile-apple-name: 'mobile-apple';
+$mobile-apple-x: 145px;
+$mobile-apple-y: 0px;
+$mobile-apple-offset-x: -145px;
+$mobile-apple-offset-y: 0px;
+$mobile-apple-width: 145px;
+$mobile-apple-height: 51px;
+$mobile-apple-total-width: 290px;
+$mobile-apple-total-height: 143px;
+$mobile-apple-image: '../../../../images/icons/sprites/spritesheet.png';
+$mobile-apple: (145px, 0px, -145px, 0px, 145px, 51px, 290px, 143px, '../../../../images/icons/sprites/spritesheet.png', 'mobile-apple', );
+$mobile-windows-name: 'mobile-windows';
+$mobile-windows-x: 0px;
+$mobile-windows-y: 0px;
+$mobile-windows-offset-x: 0px;
+$mobile-windows-offset-y: 0px;
+$mobile-windows-width: 145px;
+$mobile-windows-height: 51px;
+$mobile-windows-total-width: 290px;
+$mobile-windows-total-height: 143px;
+$mobile-windows-image: '../../../../images/icons/sprites/spritesheet.png';
+$mobile-windows: (0px, 0px, 0px, 0px, 145px, 51px, 290px, 143px, '../../../../images/icons/sprites/spritesheet.png', 'mobile-windows', );
+$site-logo-name: 'site-logo';
+$site-logo-x: 145px;
+$site-logo-y: 51px;
+$site-logo-offset-x: -145px;
+$site-logo-offset-y: -51px;
+$site-logo-width: 145px;
+$site-logo-height: 46px;
+$site-logo-total-width: 290px;
+$site-logo-total-height: 143px;
+$site-logo-image: '../../../../images/icons/sprites/spritesheet.png';
+$site-logo: (145px, 51px, -145px, -51px, 145px, 46px, 290px, 143px, '../../../../images/icons/sprites/spritesheet.png', 'site-logo', );
+$social-fb-small-name: 'social-fb-small';
+$social-fb-small-x: 168px;
+$social-fb-small-y: 102px;
+$social-fb-small-offset-x: -168px;
+$social-fb-small-offset-y: -102px;
+$social-fb-small-width: 24px;
+$social-fb-small-height: 23px;
+$social-fb-small-total-width: 290px;
+$social-fb-small-total-height: 143px;
+$social-fb-small-image: '../../../../images/icons/sprites/spritesheet.png';
+$social-fb-small: (168px, 102px, -168px, -102px, 24px, 23px, 290px, 143px, '../../../../images/icons/sprites/spritesheet.png', 'social-fb-small', );
+$social-fb-name: 'social-fb';
+$social-fb-x: 96px;
+$social-fb-y: 102px;
+$social-fb-offset-x: -96px;
+$social-fb-offset-y: -102px;
+$social-fb-width: 24px;
+$social-fb-height: 23px;
+$social-fb-total-width: 290px;
+$social-fb-total-height: 143px;
+$social-fb-image: '../../../../images/icons/sprites/spritesheet.png';
+$social-fb: (96px, 102px, -96px, -102px, 24px, 23px, 290px, 143px, '../../../../images/icons/sprites/spritesheet.png', 'social-fb', );
+$social-gp-name: 'social-gp';
+$social-gp-x: 72px;
+$social-gp-y: 102px;
+$social-gp-offset-x: -72px;
+$social-gp-offset-y: -102px;
+$social-gp-width: 24px;
+$social-gp-height: 23px;
+$social-gp-total-width: 290px;
+$social-gp-total-height: 143px;
+$social-gp-image: '../../../../images/icons/sprites/spritesheet.png';
+$social-gp: (72px, 102px, -72px, -102px, 24px, 23px, 290px, 143px, '../../../../images/icons/sprites/spritesheet.png', 'social-gp', );
+$social-ok-small-name: 'social-ok-small';
+$social-ok-small-x: 48px;
+$social-ok-small-y: 102px;
+$social-ok-small-offset-x: -48px;
+$social-ok-small-offset-y: -102px;
+$social-ok-small-width: 24px;
+$social-ok-small-height: 23px;
+$social-ok-small-total-width: 290px;
+$social-ok-small-total-height: 143px;
+$social-ok-small-image: '../../../../images/icons/sprites/spritesheet.png';
+$social-ok-small: (48px, 102px, -48px, -102px, 24px, 23px, 290px, 143px, '../../../../images/icons/sprites/spritesheet.png', 'social-ok-small', );
+$social-ok-name: 'social-ok';
+$social-ok-x: 24px;
+$social-ok-y: 102px;
+$social-ok-offset-x: -24px;
+$social-ok-offset-y: -102px;
+$social-ok-width: 24px;
+$social-ok-height: 23px;
+$social-ok-total-width: 290px;
+$social-ok-total-height: 143px;
+$social-ok-image: '../../../../images/icons/sprites/spritesheet.png';
+$social-ok: (24px, 102px, -24px, -102px, 24px, 23px, 290px, 143px, '../../../../images/icons/sprites/spritesheet.png', 'social-ok', );
+$social-tw-small-name: 'social-tw-small';
+$social-tw-small-x: 0px;
+$social-tw-small-y: 102px;
+$social-tw-small-offset-x: 0px;
+$social-tw-small-offset-y: -102px;
+$social-tw-small-width: 24px;
+$social-tw-small-height: 23px;
+$social-tw-small-total-width: 290px;
+$social-tw-small-total-height: 143px;
+$social-tw-small-image: '../../../../images/icons/sprites/spritesheet.png';
+$social-tw-small: (0px, 102px, 0px, -102px, 24px, 23px, 290px, 143px, '../../../../images/icons/sprites/spritesheet.png', 'social-tw-small', );
+$social-tw-name: 'social-tw';
+$social-tw-x: 192px;
+$social-tw-y: 102px;
+$social-tw-offset-x: -192px;
+$social-tw-offset-y: -102px;
+$social-tw-width: 24px;
+$social-tw-height: 23px;
+$social-tw-total-width: 290px;
+$social-tw-total-height: 143px;
+$social-tw-image: '../../../../images/icons/sprites/spritesheet.png';
+$social-tw: (192px, 102px, -192px, -102px, 24px, 23px, 290px, 143px, '../../../../images/icons/sprites/spritesheet.png', 'social-tw', );
+$social-vk-small-name: 'social-vk-small';
+$social-vk-small-x: 144px;
+$social-vk-small-y: 102px;
+$social-vk-small-offset-x: -144px;
+$social-vk-small-offset-y: -102px;
+$social-vk-small-width: 24px;
+$social-vk-small-height: 23px;
+$social-vk-small-total-width: 290px;
+$social-vk-small-total-height: 143px;
+$social-vk-small-image: '../../../../images/icons/sprites/spritesheet.png';
+$social-vk-small: (144px, 102px, -144px, -102px, 24px, 23px, 290px, 143px, '../../../../images/icons/sprites/spritesheet.png', 'social-vk-small', );
+$social-vk-name: 'social-vk';
+$social-vk-x: 120px;
+$social-vk-y: 102px;
+$social-vk-offset-x: -120px;
+$social-vk-offset-y: -102px;
+$social-vk-width: 24px;
+$social-vk-height: 23px;
+$social-vk-total-width: 290px;
+$social-vk-total-height: 143px;
+$social-vk-image: '../../../../images/icons/sprites/spritesheet.png';
+$social-vk: (120px, 102px, -120px, -102px, 24px, 23px, 290px, 143px, '../../../../images/icons/sprites/spritesheet.png', 'social-vk', );
+$spritesheet-width: 290px;
+$spritesheet-height: 143px;
+$spritesheet-image: '../../../../images/icons/sprites/spritesheet.png';
+$spritesheet-sprites: ($ico-lock-white, $icon-close, $icon-eye-open, $icon-lock-grey, $icon-mail, $icon-megafon-black, $icon-megafon-pink, $icon-search, $icon-user, $mobile-android, $mobile-apple, $mobile-windows, $site-logo, $social-fb-small, $social-fb, $social-gp, $social-ok-small, $social-ok, $social-tw-small, $social-tw, $social-vk-small, $social-vk, );
+$spritesheet: (290px, 143px, '../../../../images/icons/sprites/spritesheet.png', $spritesheet-sprites, );
+
+/*
+The provided mixins are intended to be used with the array-like variables
+
+.icon-home {
+  @include sprite-width($icon-home);
+}
+
+.icon-email {
+  @include sprite($icon-email);
+}
+*/
+@mixin sprite-width($sprite) {
+  width: nth($sprite, 5);
+}
+
+@mixin sprite-height($sprite) {
+  height: nth($sprite, 6);
+}
+
+@mixin sprite-position($sprite) {
+  $sprite-offset-x: nth($sprite, 3);
+  $sprite-offset-y: nth($sprite, 4);
+  background-position: $sprite-offset-x  $sprite-offset-y;
+}
+
+@mixin sprite-image($sprite) {
+  $sprite-image: nth($sprite, 9);
+  background-image: url(#{$sprite-image});
+}
+
+@mixin sprite($sprite) {
+  @include sprite-image($sprite);
+  @include sprite-position($sprite);
+  @include sprite-width($sprite);
+  @include sprite-height($sprite);
+}
+
+/*
+The `sprites` mixin generates identical output to the CSS template
+  but can be overridden inside of SCSS
+
+@include sprites($spritesheet-sprites);
+*/
+@mixin sprites($sprites) {
+  @each $sprite in $sprites {
+    $sprite-name: nth($sprite, 10);
+    .#{$sprite-name} {
+      @include sprite($sprite);
+    }
+  }
+}
