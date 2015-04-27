@@ -19,9 +19,9 @@
     @extend %icon-base;
     @include icons("icons-sprite-login.png", 25px, 16px, 0, -18px); }
 
-.icon-user:before {
-    @extend %icon-base;
-    @include icons("icons-sprite-login.png", 15px, 16px, 0, -1px) }
+// .icon-user:before {
+//     @extend %icon-base;
+//     @include icons("icons-sprite-login.png", 15px, 16px, 0, -1px) }
 
 .icon-lock:before {
     @extend %icon-base;
@@ -38,3 +38,5 @@
 .icon-mail:before {
     @extend %icon-base;
     @include icons("icon-mail.png", 14px, 11px, 0, 0) }
+
+

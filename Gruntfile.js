@@ -78,7 +78,8 @@
           all: {
             src: 'images/icons/*.png',
             dest: 'images/icons/sprites/spritesheet.png',
-            destCss: 'stylesheets/scss/partials/components/_sprites.scss'
+            destCss: 'stylesheets/scss/partials/components/_sprites.scss',
+            padding: 2
           }
         },
 

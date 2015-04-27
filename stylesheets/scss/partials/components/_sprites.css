@@ -1,0 +1,149 @@
+/*
+Icon classes can be used entirely standalone. They are named after their original file names.
+
+```html
+<!-- `display: block` sprite -->
+<div class="icon-home"></div>
+
+<!-- `display: inline-block` sprite -->
+<img class="icon-home" />
+```
+*/
+.icon-ico-lock-white {
+  background-image: url(../../../../images/icons/sprites/spritesheet.png);
+  background-position: -89px -148px;
+  width: 12px;
+  height: 16px;
+}
+.icon-icon-close {
+  background-image: url(../../../../images/icons/sprites/spritesheet.png);
+  background-position: -249px -131px;
+  width: 13px;
+  height: 13px;
+}
+.icon-icon-eye-open {
+  background-image: url(../../../../images/icons/sprites/spritesheet.png);
+  background-position: -210px -131px;
+  width: 23px;
+  height: 15px;
+}
+.icon-icon-lock-grey {
+  background-image: url(../../../../images/icons/sprites/spritesheet.png);
+  background-position: -235px -131px;
+  width: 12px;
+  height: 15px;
+}
+.icon-icon-mail {
+  background-image: url(../../../../images/icons/sprites/spritesheet.png);
+  background-position: -264px -131px;
+  width: 14px;
+  height: 11px;
+}
+.icon-icon-megafon-black {
+  background-image: url(../../../../images/icons/sprites/spritesheet.png);
+  background-position: -103px -148px;
+  width: 12px;
+  height: 12px;
+}
+.icon-icon-megafon-pink {
+  background-image: url(../../../../images/icons/sprites/spritesheet.png);
+  background-position: -117px -148px;
+  width: 12px;
+  height: 12px;
+}
+.icon-icon-search {
+  background-image: url(../../../../images/icons/sprites/spritesheet.png);
+  background-position: -52px -148px;
+  width: 18px;
+  height: 18px;
+}
+.icon-icon-user {
+  background-image: url(../../../../images/icons/sprites/spritesheet.png);
+  background-position: -72px -148px;
+  width: 15px;
+  height: 17px;
+}
+.icon-mobile-android {
+  background-image: url(../../../../images/icons/sprites/spritesheet.png);
+  background-position: -147px 0px;
+  width: 145px;
+  height: 51px;
+}
+.icon-mobile-apple {
+  background-image: url(../../../../images/icons/sprites/spritesheet.png);
+  background-position: 0px -53px;
+  width: 145px;
+  height: 51px;
+}
+.icon-mobile-windows {
+  background-image: url(../../../../images/icons/sprites/spritesheet.png);
+  background-position: 0px 0px;
+  width: 145px;
+  height: 51px;
+}
+.icon-site-logo {
+  background-image: url(../../../../images/icons/sprites/spritesheet.png);
+  background-position: -147px -53px;
+  width: 145px;
+  height: 46px;
+}
+.icon-social-fb-small {
+  background-image: url(../../../../images/icons/sprites/spritesheet.png);
+  background-position: -236px -106px;
+  width: 24px;
+  height: 23px;
+}
+.icon-social-fb {
+  background-image: url(../../../../images/icons/sprites/spritesheet.png);
+  background-position: -42px -106px;
+  width: 40px;
+  height: 40px;
+}
+.icon-social-gp-small {
+  background-image: url(../../../../images/icons/sprites/spritesheet.png);
+  background-position: 0px -148px;
+  width: 24px;
+  height: 23px;
+}
+.icon-social-gp {
+  background-image: url(../../../../images/icons/sprites/spritesheet.png);
+  background-position: 0px -106px;
+  width: 40px;
+  height: 40px;
+}
+.icon-social-ok-small {
+  background-image: url(../../../../images/icons/sprites/spritesheet.png);
+  background-position: -26px -148px;
+  width: 24px;
+  height: 23px;
+}
+.icon-social-ok {
+  background-image: url(../../../../images/icons/sprites/spritesheet.png);
+  background-position: -168px -106px;
+  width: 40px;
+  height: 40px;
+}
+.icon-social-tw-small {
+  background-image: url(../../../../images/icons/sprites/spritesheet.png);
+  background-position: -262px -106px;
+  width: 24px;
+  height: 23px;
+}
+.icon-social-tw {
+  background-image: url(../../../../images/icons/sprites/spritesheet.png);
+  background-position: -126px -106px;
+  width: 40px;
+  height: 40px;
+}
+.icon-social-vk-small {
+  background-image: url(../../../../images/icons/sprites/spritesheet.png);
+  background-position: -210px -106px;
+  width: 24px;
+  height: 23px;
+}
+.icon-social-vk {
+  background-image: url(../../../../images/icons/sprites/spritesheet.png);
+  background-position: -84px -106px;
+  width: 40px;
+  height: 40px;
+}
