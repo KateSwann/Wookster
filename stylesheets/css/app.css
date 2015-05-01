@@ -6529,7 +6529,8 @@ input[type="submit"] {
   border-right: none;
   color: #333333;
   border-color: #cccccc;
-  height: 2.7875rem; }
+  height: 2.7875rem;
+  padding-left: 0; }
 
 .input-postfix {
   display: block;
@@ -6562,7 +6563,8 @@ input[type="submit"] {
   border-radius: 3px 0 0 3px; }
 .prefix-radius input {
   border-radius: 0 3px 3px 0;
-  border-left: none; }
+  border-left: none;
+  padding-left: 0; }
 
 .postfix-radius .input-postfix, .postfix-radius .postfix {
   border-radius: 0 3px 3px 0; }
@@ -6577,48 +6579,6 @@ input[type="submit"] {
 .hero {
   padding: 35px 0;
   color: #FFF; }
-
-.icon-eye:before, .icon-lock:before, .icon-megafon-pink:before, .icon-megafon-black:before, .icon-mail:before {
-  content: "";
-  background-repeat: no-repeat;
-  display: inline-block;
-  vertical-align: middle;
-  line-height: 1; }
-
-.icon-eye:before {
-  background-image: url(../../images/icons/icons-sprite-login.png);
-  background-position: 0 -18px;
-  width: 25px;
-  height: 16px;
-  margin-top: 5.33333px; }
-
-.icon-lock:before {
-  background-image: url(../../images/icons/icons-sprite-login.png);
-  background-position: -14px 0;
-  width: 13px;
-  height: 16px;
-  margin-top: 5.33333px; }
-
-.icon-megafon-pink:before {
-  background-image: url(../../images/icons/icons-sprite-megafon.png);
-  background-position: 0 0;
-  width: 12px;
-  height: 12px;
-  margin-top: 4px; }
-
-.icon-megafon-black:before {
-  background-image: url(../../images/icons/icons-sprite-megafon.png);
-  background-position: 0 -12px;
-  width: 12px;
-  height: 12px;
-  margin-top: 4px; }
-
-.icon-mail:before {
-  background-image: url(../../images/icons/icon-mail.png);
-  background-position: 0 0;
-  width: 14px;
-  height: 11px;
-  margin-top: 3.66667px; }
 
 /* --------------- Labels ---------------*/
 .label.type-show {
@@ -6780,6 +6740,8 @@ input[type="submit"] {
     display: block; }
     .social-icons-list > li > * {
       display: block; }
+  .social-icons-list > li {
+    margin-left: 5px; }
 
 /*
 SCSS variables are information about icon's compiled state, stored under its original file name
@@ -6811,11 +6773,130 @@ The `sprites` mixin generates identical output to the CSS template
 
 @include sprites($spritesheet-sprites);
 */
+.icon-close:before, .icon-eye-open:before, .icon-lock-grey:before, .icon-lock-white:before, .icon-mail:before, .icon-megafon-black:before, .icon-megafon-pink:before, .icon-search:before, .icon-user:before, .mobile-android:before, .mobile-apple:before, .mobile-windows:before, .site-logo:before, .social-fb-small:before, .social-fb:before, .social-gp-small:before, .social-gp:before, .social-ok-small:before, .social-ok:before, .social-tw-small:before, .social-tw:before, .social-vk-small:before, .social-vk:before {
+  background-image: url(../../images/icons/sprites/spritesheet.png);
+  display: inline-block;
+  content: "";
+  vertical-align: middle; }
+
+.icon-close:before {
+  background-position: -249px -131px;
+  width: 13px;
+  height: 13px; }
+
+.icon-eye-open:before {
+  background-position: -210px -131px;
+  width: 23px;
+  height: 15px; }
+
+.icon-lock-grey:before {
+  background-position: -235px -131px;
+  width: 12px;
+  height: 15px; }
+
+.icon-lock-white:before {
+  background-position: -89px -148px;
+  width: 12px;
+  height: 16px; }
+
+.icon-mail:before {
+  background-position: -264px -131px;
+  width: 14px;
+  height: 11px; }
+
+.icon-megafon-black:before {
+  background-position: -103px -148px;
+  width: 12px;
+  height: 12px; }
+
+.icon-megafon-pink:before {
+  background-position: -117px -148px;
+  width: 12px;
+  height: 12px; }
+
+.icon-search:before {
+  background-position: -52px -148px;
+  width: 18px;
+  height: 18px; }
+
 .icon-user:before {
-  background-image: url(../../../../images/icons/sprites/spritesheet.png);
   background-position: -72px -148px;
   width: 15px;
   height: 17px; }
+
+.mobile-android:before {
+  background-position: -147px 0px;
+  width: 145px;
+  height: 51px; }
+
+.mobile-apple:before {
+  background-position: 0px -53px;
+  width: 145px;
+  height: 51px; }
+
+.mobile-windows:before {
+  background-position: 0px 0px;
+  width: 145px;
+  height: 51px; }
+
+.site-logo:before {
+  background-position: -147px -53px;
+  width: 145px;
+  height: 46px; }
+
+.social-fb-small:before {
+  background-position: -236px -106px;
+  width: 24px;
+  height: 23px; }
+
+.social-fb:before {
+  background-position: -42px -106px;
+  width: 40px;
+  height: 40px; }
+
+.social-gp-small:before {
+  background-position: -262px -106px;
+  width: 24px;
+  height: 23px; }
+
+.social-gp:before {
+  background-position: 0px -106px;
+  width: 40px;
+  height: 40px; }
+
+.social-ok-small:before {
+  background-position: 0px -148px;
+  width: 24px;
+  height: 23px; }
+
+.social-ok:before {
+  background-position: -168px -106px;
+  width: 40px;
+  height: 40px; }
+
+.social-tw-small:before {
+  background-position: -26px -148px;
+  width: 24px;
+  height: 23px; }
+
+.social-tw:before {
+  background-position: -126px -106px;
+  width: 40px;
+  height: 40px; }
+
+.social-vk-small:before {
+  background-position: -210px -106px;
+  width: 24px;
+  height: 23px; }
+
+.social-vk:before {
+  background-position: -84px -106px;
+  width: 40px;
+  height: 40px; }
+
+*[class^="icon-"].before-text:before {
+  vertical-align: -1px;
+  margin-right: 4px; }
 
 /* --------------------  Reveal modal window ----------------- */
 .reveal-modal, dialog {

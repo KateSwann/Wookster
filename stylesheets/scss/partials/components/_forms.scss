@@ -17,6 +17,7 @@ input[type="submit"] {
     @include prefix($bg: $white, $is-button: false);
 
     height: ($input-font-size-large + ($input-form-spacing-large * 1.5) - rem-calc(1));
+    padding-left: 0;
 }
 
 .input-postfix {
@@ -47,6 +48,7 @@ input[type="submit"] {
     input {
         border-radius: 0 $global-radius $global-radius 0;
         border-left: none;
+        padding-left: 0;
     }
 }
 

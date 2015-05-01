@@ -79,6 +79,7 @@
             src: 'images/icons/*.png',
             dest: 'images/icons/sprites/spritesheet.png',
             destCss: 'stylesheets/scss/partials/components/_sprites.scss',
+            imgPath: '../../images/icons/sprites/spritesheet.png', // manually setup default path to sprite
             padding: 2
           }
         },
